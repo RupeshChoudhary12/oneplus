@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    
+}
+nav img{
+    height: 60px;
+    margin-right: 30px;
+}
+nav{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    box-shadow: 0px 3px 49px -22px rgba(0, 0, 0,  0.75);
+    background-color: #f8f8f8;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.primary-links{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.primary-links li{
+    margin-right: 20px;
+}
+.nav-links{
+    width: 80%;
+    justify-content: space-between;
+}
+.nav-icons{
+    width: 10%;
+    justify-content: space-between;
+}
+
+nav i{
+    font-size: 24px;
+}
+.res-icons{
+    display: none;
+}
+ 
+.hero-section{
+    height: 100vh;
+    background-image: url(./assests/hero.webp);
+    background-size: cover;
+    background-position: center;
+}
+.text-section{
+    color: white;
+    width: 50%;
+    padding: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.launch-date{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.text-section h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.learn-btn{
+    background-color: white;
+    border: none;
+}
+
+.text-section button{
+    height: 40px;
+    width: 40%;
+    margin: 5px;
+}
+.subscribe-btn{
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+.trending-product{
+    height: 90vh;
+    display: flex;
+    padding: 50px;
+}
+
+.trending-product .text-section{
+    width: 40%;
+    color: black;
+    padding: 50px;
+}
+
+.buy-btn{
+    background-color: black;
+    color: white;
+}
+
+.trending-product .learn-btn{
+    background:none ;
+    border: 1px solid black;
+}
+
+.trending-product .image-section{
+    height: 100%;
+    width: 60%;
+    background-image: url(./assests/trending.webp);
+    background-size: cover;
+}
+
+.tv-section{
+    padding: 50px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.info-section{
+    height: 100%;
+    width: 50%;
+    display: flex;
+
+    justify-content:space-between ;
+    background-color: aqua;
+
+}
+
+.product-image img{
+    height: 300px;
+}
+
+.info-section h1{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.info-section h3{
+    font-weight: 400S;
+}
+
+.tv-btns button{
+    margin-top: 10px;
+    height: 40px;
+    width: 120px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media( max-width: 1080px){
+       
+    
+       .nav-links{
+        display: none;
+       }
+       .primary-links{
+        justify-content: center;
+       }
+
+       .nav-icons{
+        display: none;
+       }
+
+       nav img{
+        margin-right: 0;
+       }
+
+       .res-icons{
+        display: block;
+       }
+
+       .text-section{
+        width: 100%;
+       }
+
+       .trending-product .image-section{
+        display: none;
+       }
+
+       .trending-product .text-section{
+        width: 100%;
+       }
+
+       .trending-img{
+        display: block;
+       }
+
+       .trending-product{
+        padding: 20px;
+       }
+
+       .tv-section{
+        padding: 20px;
+       }
+       .tv-card{
+        flex-direction: column-reverse;
+       }
+       
+       .info-section{
+        width: 100%;
+       }
+ }   
